@@ -1,46 +1,102 @@
+/* || General Style || */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* || Responsive Screen || */
 @media screen and (min-width: 600px){
  body { 
     font-size: 12pt;
     aspect-ratio: auto;
+}
+}
 
-}
-}
+/* || Body Background Image */
 body {
-    background-image: url(/assets/mkk_suleygn_fbimg.jpg);
-    flex-wrap: wrap;
-    flex-direction: row;
-    grid-column: span;
-    text-align: center;
-    overflow-x:scroll;
+    background-image:repeating-radial-gradient(white, #c90016);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-y:scroll;
+    overflow-x:scroll;
+    flex-wrap: wrap;
+    grid-column:auto;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+/* || Header Stlying || */
+.header {
+    border-width: 10px;
+    display: inline-flex;
+    border-style: ridge ;
+    border-radius: 20px;
+    border-block-color: rgb(255, 255, 255);
+    padding: 5px;
+    float: center;
+}
+
+.header h1 {
+    display: inline-block;
+    padding: 50px;
+    border-style: dotted;
+    border-radius: 10px;
+    background-color:darkorange;
+    padding: 20px, 20px;
+    color:beige;
+    display: inline-flex;
+    font-size: 30px;
 }
 
 
-/* Banner-Bkg */
-.banner-bkg {
-    background-image:repeating-radial-gradient(white, crimson);
+/* || Navigation Bar Styling || */
+.nav {
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 50px;
+    background-image:repeating-radial-gradient(#fff, #0de6ee);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1000px;
-    position: relative;
     justify-content: center;
-    position: fixed;
 }
 
-.banner-bkg h1 {
+.nav ul li {
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.nav p {
+    padding-top: 10px;
     text-decoration: double;
     text-shadow: brown;
-    color: crimson;
+    color: rgb(235, 5, 200);
 }
 
-.banner-bkg h3 {
-    color: rgba(113, 122, 6, 0.941);
-    text-shadow: 2px;
+.nav h3 {
+    padding: 10px;
+    color: rgba(242, 199, 140, 0.941);
+    text-shadow:blueviolet;
 
 }
 
+.main-section {
+    background-image: url(/assets/Burma\ Spring\ Revolution\ March\ for\ Democracy\ Civil\ Disobedience\ Movement\ February\ 17\,\ 2021_resized.jpg);
+    background-position-x: 50px;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    margin: 20px, 20px;
+    padding: 20px, 20px;
+    background-size: cover;
+    background-position: center;
+
+
+}
