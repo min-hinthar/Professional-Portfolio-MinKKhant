@@ -94,7 +94,7 @@ p {
 /* || Main Section Styling || */
 
 .main-section {
-    background-image: url(./assets/sule.jpeg.jpg);
+    background-image: url(/assets/sule.jpeg.jpg);
     background-position-x: 50px;
     background-position-y: 50px;
     background-repeat: no-repeat;
