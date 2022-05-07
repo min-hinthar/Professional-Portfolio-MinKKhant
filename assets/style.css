@@ -17,6 +17,15 @@ html {
 }
 }
 
+@media screen and (max-width: 756px){
+body {
+    float: none;
+    font-size: 8px;
+    aspect-ratio: 30%;
+}
+}
+
+
 /* || Body Background Image */
 body {
     background-image:repeating-radial-gradient(white, #c90016);
