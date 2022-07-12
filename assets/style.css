@@ -149,7 +149,7 @@ p {
 
 
 .Pofo-Header {
-    position: absolute;
+    /* position: absolute; */
     margin: 1rem;
     padding: 1rem;
     background-color:rgb(15, 191, 191);
@@ -160,6 +160,7 @@ p {
 .Pofo-Block a:hover img {
     /* max-height: 200px;
     max-width: 200px; */
+    position: absolute;
     transform: scale(2);
     box-shadow: 0 0 2rem #c90016;
 }
