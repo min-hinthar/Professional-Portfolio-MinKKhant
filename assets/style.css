@@ -149,7 +149,7 @@ p {
 
 
 .Pofo-Header {
-    /* position: absolute; */
+    position: relative;
     margin: 1rem;
     padding: 1rem;
     background-color:rgb(15, 191, 191);
