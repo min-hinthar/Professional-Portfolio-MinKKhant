@@ -150,18 +150,18 @@ p {
 
 .Pofo-Header {
     position: absolute;
-    margin: -2rem -2rem 2rem -2rem;
-    padding: 2rem 2rem;
+    margin: 1rem;
+    padding: 1rem;
     background-color:rgb(15, 191, 191);
     border: 3px solid rgb(254, 102, 0);
     border-radius: 10px;
 }
 
 .Pofo-Block a:hover img {
-    max-height: 200px;
-    max-width: 200px;
-    transform: scale(1.5);
-    box-shadow: 0 0 20px #c90016;
+    /* max-height: 200px;
+    max-width: 200px; */
+    transform: scale(2);
+    box-shadow: 0 0 2rem #c90016;
 }
 
 .bottom-section {
