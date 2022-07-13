@@ -158,8 +158,8 @@ p {
 }
 
 .Pofo-Block a:hover img {
-    /* max-height: 200px;
-    max-width: 200px; */
+    max-height: 200px;
+    max-width: 200px;
     position: absolute;
     transform: scale(2);
     box-shadow: 0 0 2rem #c90016;
